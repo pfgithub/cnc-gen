@@ -5,14 +5,17 @@ html
     script.
       /*hide advanced settings*/function otherthing(){document.getElementById('hidden').style.display='none';document.getElementById('thiself').style.display='block'}
       /*show advanced settings*/function thing1(){document.getElementById('hidden').style.display='block';document.getElementById('thiself').style.display='none'}
-    form(action="get.php",method="post")
+    form(action="get.php",method="post",encType="multipart/form-data")
+      input(type="text",name="name")
+      label File name
+      br
       input(type="file",name="cut")
       label Cut SVG
       br
       input(type="file",name="crease")
       label Crease SVG
       br
-      input(type="number",name="scale")
+      input(type="number",name="s")
       label Resulting cut width
       br
       a(id="thiself",href="javascript:thing1()") &gt; Show advanced settings
