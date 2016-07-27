@@ -1,50 +1,108 @@
+mixin spoiler(title)
+  .spoiler
+    span.spoilerText Spoiler
+    input.spoilerChecked(type='checkbox', showtext=title)
+    .spoilerContent
+      block
+
+mixin help()
+  .helpbtn
+    a.helplink(href="#") (?)
+    .helptext
+      block
+
 html
   head
-    title
+    title Control Panel
+    link(href="style.css", rel="stylesheet")
   body
+    script(src="/script.js")
     script.
-      /*hide advanced settings*/function otherthing(){document.getElementById('hidden').style.display='none';document.getElementById('thiself').style.display='block'}
-      /*show advanced settings*/function thing1(){document.getElementById('hidden').style.display='block';document.getElementById('thiself').style.display='none'}
+      POWERMODE.colorful = false; // make power mode colorful
+      POWERMODE.shake = false; // turn off shake
+      document.body.addEventListener('input', POWERMODE);
     form(action="get.php",method="post",encType="multipart/form-data")
-      input(type="text",name="name")
+      input(type="text",name="name",value="Unnamed")
       label File name
+      +help
+        | The name you want the downloaded file to have
+        | Example:
+        br
+        code "Super Image 3"
+        | creates the file
+        code "super-image-3-TIMESTAMP"
       br
       input(type="file",name="cut")
       label Cut SVG
+      +help
+        | The SVG file containing paths of what you want to cut
+        | Cuts get done with the top path first
+        | which usually means the first ones you make your graphics program
       br
       input(type="file",name="crease")
       label Crease SVG
+      +help
+        | The SVG file containing paths what you want to crease
       br
-      input(type="number",name="s")
+      input(type="number",name="s",value="10")
       label Resulting cut width
+      +help
+        | The width of your resulting output file
       br
-      a(id="thiself",href="javascript:thing1()") &gt; Show advanced settings
-      div#hidden(style="display:none")
-
-        a(id="thiself",href="javascript:otherthing()") v Hide advanced settings
+      +spoiler("advanced settings")
         br
         input(type="number",name="l",value="10")
         label Rotation Cutoff
+        +help
+          | How much to allow the cutting tool to turn without pulling out of the material
+          | Set to
+          code -1
+          | to disable this feature
+          | or
+          code 360
+          | if your cutting tool has no rotation (a) value
         br
         input(type="number",name="d",value="-0.5")
         label Depth
+        +help
+          | The number on the z axis so that the cutting tool is cutting all the way through the material
         br
         input(type="number",name="e",value="0")
         label Scratch
+        +help
+          | The number on the z axis so that the cutting tool is almost touching the material but not quite
         br
         input(type="number",name="f",value="0.5")
         label Crease
+        +help
+          | The number on the z axis so that the cutting tool is creasing the material
         br
         input(type="number",name="ho",value="2")
         label Height Offset
+        +help
+          | A number to use if the cut comes out too low or too high
+          | Example:
+          | The cut comes out too low, height offset =
+          code 0.9
         br
         input(type="number",name="p",value="2.2")
         label Crease tool offset
+        +help
+          | How far down the creasing tool is from the cutting tool
+          | Examle:
+          | The creasing tool is
+          code 3
+          | down, so the crease tool offset =
+          code 3
         br
         input(type="number",name="m",value="1")
         label X-Multiplier
+        +help
+          | A number to multiply the x value by
         br
         input(type="number",name="n",value="-1")
         label Y-Multiplier
+        +help
+          | A number to multiply the y value by
       br
-      button Submit
+      button Download

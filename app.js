@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require("body-parser");
 var fileUpload = require('express-fileupload');
+var fs = require("fs");
 
 var convert = require("./converter.js")
 
@@ -10,8 +11,32 @@ app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded({}));
 app.use(fileUpload());
 
-app.get('/', function (req, res) {
+app.get('/', function(req, res) {
+  res.redirect('/index.php');
+});
+
+app.get('/index.php', function(req, res) {
   res.render('controlpanel');
+});
+
+app.get('/style.css',function(req,res){
+  res.sendFile(__dirname+"/styles/style.css");
+});
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+app.get('/cardboard.jpg',function(req,res){
+  res.sendFile(__dirname+"/images/cardboard"+getRandomInt(1,5)+".jpg");
+});
+
+app.get('/script.js',function(req,res){
+  res.sendFile(__dirname+"/activate-power-mode.js");
+});
+
+app.get('/small-triangle.png',function(req,res){
+  res.sendFile(__dirname+"/images/small-triangle.png");
 });
 
 function getObjectFor(body,letters){
@@ -37,7 +62,7 @@ app.post('/get.php', function(req,res){
   console.log(req.body);
 
   res.setHeader('Content-type', "application/octet-stream");
-  res.setHeader('Content-disposition', 'attachment; filename='+req.body.name+(new Date()).getTime()+'.tap');
+  res.setHeader('Content-disposition', 'attachment; filename='+req.body.name.toLowerCase().split(" ").join("-")+"-"+(new Date()).getTime()+'.tap');
   res.send( new Buffer(result) );
 });
 

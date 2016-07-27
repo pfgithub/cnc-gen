@@ -1,0 +1,166 @@
+body{
+  /*background-color:#55f;*/
+  background-image:url("/cardboard.jpg");
+  background-size:100%;
+  background-position: center center;
+}
+
+form{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+
+  border:0 solid #000000;
+  border-top:20px solid #000000;
+  border-top:20px solid rgba(255,255,255,0.3);
+
+  background-color:#ffffff;
+  background-color:rgba(255,255,255,0.5);
+
+  position:fixed;
+  top:50%;
+  left:50%;
+
+  width:auto;
+  height:auto;
+
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+
+  padding:10px;
+}
+
+input, button{
+  border:none;
+  background-color:#dddddd;
+  background-color:rgba(255,255,255,0.3);
+  width:50%;
+
+  -webkit-animation: 0.2s background-color;
+  -moz-animation: 0.2s background-color;
+  -ms-animation: 0.2s background-color;
+  -o-animation: 0.2s background-color;
+  animation: 0.2s background-color;
+}
+
+input:hover, button:hover{
+  background-color:#cccccc;
+  background-color:rgba(255,255,255,0.4);
+}
+
+input[type=file]::-webkit-file-upload-button{
+  border:none;
+  width:auto;
+  background-color:rgba(255,255,255,0.3);
+}
+
+.spoilerText{
+  display:none;
+}
+.spoilerChecked{
+  visibility:hidden;
+  width:100%;
+}
+.spoilerChecked:before{
+  visibility:visible;
+
+  position:absolute;
+  width:15px;
+  height:13px;
+  /*background-color: #000;*/
+  background-image: url("/small-triangle.png");
+  background-size:100%;
+
+  transform: rotate(-90deg) ;
+  -webkit-transform: rotate(-90deg) ;
+  -moz-transform: rotate(-90deg) ;
+  -o-transform: rotate(-90deg) ;
+  -ms-transform: rotate(-90deg) ;
+
+  content:"";
+
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+  transition: transform 0.2s;
+}
+.spoilerChecked:hover:before{
+  transform: rotate(-80deg) ;
+  -webkit-transform: rotate(-80deg) ;
+  -moz-transform: rotate(-80deg) ;
+  -o-transform: rotate(-80deg) ;
+  -ms-transform: rotate(-80deg) ;
+}
+.spoilerChecked:checked:before{
+  transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;
+}
+.spoilerChecked:checked:hover:before{
+  transform: rotate(-10deg) ;
+  -webkit-transform: rotate(-10deg) ;
+  -moz-transform: rotate(-10deg) ;
+  -o-transform: rotate(-10deg) ;
+  -ms-transform: rotate(-10deg) ;
+}
+.spoilerChecked:after{
+  background-color:#dddddd;
+  background-color:rgba(255,255,255,0.3);
+
+  content:"\00a0\00a0\00a0\00a0 Show "attr(showText);
+  visibility:visible;
+}
+.spoilerChecked:checked:after{
+  content:"\00a0\00a0\00a0\00a0 Hide "attr(showText);
+}
+.spoilerContent{
+  display:block;
+  height:auto;
+  max-height:0;
+  padding-left:10px;
+  margin-left:5px;
+  transform: scaleY(0);
+  transform-origin: top;
+  border-left: 1px solid #000;
+  transition: max-height 0.2s, transform 0.2s;
+}
+.spoilerChecked:checked + .spoilerContent{
+  max-height:1000px;
+  display:block;
+  transform: scaleY(1);
+}
+
+button{
+  width:100%;
+}
+
+.helpbtn{
+  display:inline;
+}
+
+.helptext{
+  display:none;
+  white-space: pre;
+}
+
+.helplink:hover + .helptext{
+  display:block;
+  position:fixed;
+  background-color:#fff;
+  background-color:rgba(255,255,255,0.9);
+
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+}
