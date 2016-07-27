@@ -4,7 +4,9 @@ var start = "G17\n\
 G0Z0.0020\n\
 G0X0.0000Y0.0000";
 
-var end="M30";
+var end="G0Z0\n\
+G0X0Y0Z0A0\n\
+M30";
 
 function CNC(cardboardSize, width, height,rotationCutoff){
   this.instructions = [];
@@ -12,22 +14,30 @@ function CNC(cardboardSize, width, height,rotationCutoff){
   this.cardboardSize = cardboardSize;
   this.width = width;
   this.height = height;
+  this.widthOffset = 0;
+  this.heightOffset = 0;
   this.rotationCutoff = rotationCutoff;
+
+  this.prevtangle = 0;
+
+  this.xoffset = 0;
+  this.yoffset = 0;
 };
 
 CNC.prototype.goTo = function(x,y,alsoRotate){
   if(alsoRotate){
+    throw new Error("alsoRotate is disabled");
     this.addInstruction([
       ["G", 0],
-      ["X", x * this.width],
-      ["Y", y * this.height],
+      ["X", (x * this.width + this.xoffset * this.width) + this.xoffset],
+      ["Y", (y * this.height + this.yoffset * this.height) + this.yoffset],
       ["A", alsoRotate]
     ]);
   }else{
     this.addInstruction([
       ["G", 0],
-      ["X", x * this.width],
-      ["Y", y * this.height]
+      ["X", (x * this.width + this.widthOffset * this.width) + this.xoffset],
+      ["Y", (y * this.height + this.heightOffset * this.height) + this.yoffset]
     ]);
   }
 };
@@ -72,6 +82,19 @@ CNC.prototype.calculateAngle = function(startX,startY,endX,endY){
 
   return(Math.atan2(dY, dX) * 180 / Math.PI);
 }
+CNC.prototype.crease = function(startX, startY, endX, endY){
+  // 3 in below
+  // -> works -> CNC.prototype.drawLine(startX, startY + 3, endX, endY + 3);
+}
+CNC.prototype.setTool = function(tool){
+  if(tool == "crease"){
+  this.yoffset = this.cardboardSize[3];
+  this.xoffset = 0;
+}else{
+  this.xoffset = 0;
+  this.yoffset = 0;
+}
+}
 CNC.prototype.facePoint = function(startX, startY, endX, endY){
 
   this.rotate(startY ? this.calculateAngle(startX,startY,endX,endY) : startX);
@@ -79,12 +102,15 @@ CNC.prototype.facePoint = function(startX, startY, endX, endY){
   return startY ? this.calculateAngle(startX,startY,endX,endY) : startX;
 };
 CNC.prototype.rotate = function(direction){
+  this.addInstruction([["G", 91]]);
   tangle = direction % 360;
   if(tangle<0)tangle+=360;
   this.addInstruction([
     ["G", 0],
-    ["A", tangle]
+    ["A", tangle - this.prevtangle]
   ]);
+  this.prevtangle = tangle;
+  this.addInstruction([["G", 90]]);
 }
 
 CNC.prototype.stab = function(ammount){

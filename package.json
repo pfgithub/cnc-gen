@@ -5,6 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "bezier-curve": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta4",
+    "svg-arc-to-cubic-bezier": "^1.0.1",
     "svg-path-parser": "^1.0.1",
     "yargs": "^4.8.1"
   },

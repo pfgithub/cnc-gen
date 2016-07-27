@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 500.00001 500.00001"
+   id="svg7895"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="googleCardboard.svg">
+  <defs
+     id="defs7897">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect9148"
+       is_visible="true"
+       pattern="m 0,557.36216 c 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect9144"
+       is_visible="true"
+       pattern="m 0,557.36216 c 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <g
+       id="ID__#42_Model_Space" />
+    <g
+       id="ID__#42_Paper_Space0" />
+    <g
+       id="ID__#42_Paper_Space" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="213.13594"
+     inkscape:cy="342.60318"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7900">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-552.36216)">
+    <g
+       style="overflow:visible"
+       id="g8720"
+       transform="matrix(0.46216787,0,0,0.46216787,63.439441,634.95137)">
+      <g
+         transform="scale(1,-1)"
+         id="draft"
+         style="stroke-width:0.17089261">
+        <g
+           id="ID_0"
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:0.17089261">
+          <path
+             id="ID_6F"
+             d="M -69.057107,86.077893 A 1,1 0 0 1 -69.35,85.370786"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_71"
+             d="m -15.194996,100.02611 a 4,4 0 0 1 -5.165417,5.52909"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_72"
+             d="M -6.9387485,145.14143 A 28.5,28.5 0 1 1 -20.360413,105.5552"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_73"
+             d="M -6.9387485,145.14143 A 3,3 0 0 1 -4.300722,143.57"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_75"
+             d="m -2,143.57 a 0.25,0.25 0 0 1 0.2165064,0.125"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_77"
+             d="m 0.21650635,146.4091 a 0.25,0.25 0 0 1 -0.4330127,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_79"
+             d="M 1.7834936,143.695 A 0.25,0.25 0 0 1 2,143.57"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_7B"
+             d="m 4.300722,143.57 a 3,3 0 0 1 2.6380265,1.57143"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_7C"
+             d="M 20.360413,105.5552 A 28.5,28.5 0 1 1 6.9387485,145.14143"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_7D"
+             d="m 20.360413,105.5552 a 4,4 0 0 1 -5.165417,-5.52909"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_80"
+             d="m 69.35,85.370786 a 1,1 0 0 1 -0.292893,0.707107"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_82"
+             d="m 67.6,87.949214 a 1,1 0 0 1 0.292893,-0.707107"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_86"
+             d="M -67.892893,87.242107 A 1,1 0 0 1 -67.6,87.949214"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_8B"
+             d="m 54.35,76.785 a 11.5,11.5 0 0 1 0,-23"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_99"
+             d="m 8.3215254,-3.5602655 a 9.0071542,9.0071542 0 0 1 -16.6430508,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_9D"
+             d="M 96.592351,41.085509 A 5,5 0 0 1 99.931298,44.035"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_9F"
+             d="m 77.36632,42.133557 a 5,5 0 0 1 6.284236,-4.515791"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="A0"
+             d="m 77.306587,44.035 a 30.293413,30.293413 0 0 1 0.05973,-1.901443"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="A4"
+             d="M 22.155805,-37.102709 A 50,50 0 0 1 19.746632,-43.36651"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="A5"
+             d="M 8.0346716,-66.488491 A 77.120877,77.120877 0 0 1 19.746632,-43.36651"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="A6"
+             d="m -8.0346716,-66.488491 a 10,10 0 0 1 16.0693432,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="A7"
+             d="M -19.746632,-43.36651 A 77.120877,77.120877 0 0 1 -8.0346716,-66.488491"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="A8"
+             d="m -19.746632,-43.36651 a 50,50 0 0 1 -2.409173,6.263801"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="AA"
+             d="m -69.35,-87.035 a 4.2708333,4.2708333 0 0 1 0,6.5"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="AB"
+             d="m -69.35,-87.035 a 9.9652778,9.9652778 0 0 1 -3.5,-7.583333"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="AD"
+             d="M 72.85,-94.618333 A 9.9652778,9.9652778 0 0 1 69.35,-87.035"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="AE"
+             d="m 69.35,-80.535 a 4.2708333,4.2708333 0 0 1 0,-6.5"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="B2"
+             d="m -72.85,-210.355 a 6,6 0 0 1 6,-6"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="B4"
+             d="m 31.85,-216.355 a 6,6 0 0 1 6,6"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="B6"
+             d="m 54.35,-192.105 a 16.5,16.5 0 0 1 -16.5,-16.5"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="B8"
+             d="m 66.85,-192.105 a 6,6 0 0 1 6,6"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="C4"
+             d="m 381.76429,92.204291 a 7.5071542,7.5071542 0 0 1 13.87142,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="D1"
+             d="m 396.32862,-3.8472781 a 8.2571542,8.2571542 0 0 1 -15.25724,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="D8"
+             d="m 438.02051,10 a 2.775,2.775 0 0 1 -4.15976,0.760798"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="D9"
+             d="M 440.01852,5.1763809 A 20,20 0 0 1 438.02051,10"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="DA"
+             d="m 437.61509,1.6970191 a 2.775,2.775 0 0 1 2.40343,3.4793618"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="DB"
+             d="M 423.43875,-16.777939 A 17,17 0 0 1 437.61509,1.6970191"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="DC"
+             d="m 420.7,-20 a 2.775,2.775 0 0 1 2.73875,3.222061"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="DD"
+             d="M 415.52362,-19.318517 A 20,20 0 0 1 420.7,-20"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="DE"
+             d="m 413.71212,-15.497404 a 2.775,2.775 0 0 1 1.8115,-3.821113"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="DF"
+             d="m 404.8005,6.0171409 a 17,17 0 0 1 8.91162,-21.5145449"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E0"
+             d="M 403.37949,10 A 2.775,2.775 0 0 1 404.8005,6.0171409"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E1"
+             d="M 406.55786,14.142136 A 20,20 0 0 1 403.37949,10"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E2"
+             d="m 410.7728,13.800384 a 2.775,2.775 0 0 1 -4.21494,0.341752"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E3"
+             d="M 433.86075,10.760798 A 17,17 0 0 1 410.7728,13.800384"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E4"
+             d="M 366.6272,13.800384 A 17,17 0 0 1 343.53925,10.760798"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E5"
+             d="M 370.84214,14.142136 A 2.775,2.775 0 0 1 366.6272,13.800384"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E6"
+             d="m 374.02051,10 a 20,20 0 0 1 -3.17837,4.142136"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E7"
+             d="M 372.5995,6.0171409 A 2.775,2.775 0 0 1 374.02051,10"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E8"
+             d="M 363.68788,-15.497404 A 17,17 0 0 1 372.5995,6.0171409"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="E9"
+             d="m 361.87638,-19.318517 a 2.775,2.775 0 0 1 1.8115,3.821113"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="EA"
+             d="m 356.7,-20 a 20,20 0 0 1 5.17638,0.681483"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="EB"
+             d="M 353.96125,-16.777939 A 2.775,2.775 0 0 1 356.7,-20"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="EC"
+             d="M 339.78491,1.6970191 A 17,17 0 0 1 353.96125,-16.777939"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ED"
+             d="m 337.38148,5.1763809 a 2.775,2.775 0 0 1 2.40343,-3.4793618"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="EE"
+             d="M 339.37949,10 A 20,20 0 0 1 337.38148,5.1763809"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="EF"
+             d="M 343.53925,10.760798 A 2.775,2.775 0 0 1 339.37949,10"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="F1"
+             d="m 409.3232,-36.906581 a 2,2 0 0 1 0.0274,1.621581"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="F3"
+             d="M 396.73467,-62.988491 A 77.120877,77.120877 0 0 1 409.26363,-37.035"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="F4"
+             d="m 380.66533,-62.988491 a 10,10 0 0 1 16.06934,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="F5"
+             d="m 368.13637,-37.035 a 77.120877,77.120877 0 0 1 12.52896,-25.953491"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="F7"
+             d="m 368.04945,-35.285 a 2,2 0 0 1 0.0274,-1.621581"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="FA"
+             d="M 381.76125,-96.998571 A 3,3 0 0 1 384.39928,-98.57"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="FC"
+             d="m 386.7,-98.57 a 0.25,0.25 0 0 1 0.21651,0.125"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="FE"
+             d="m 388.91651,-95.730898 a 0.25,0.25 0 0 1 -0.43302,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_100"
+             d="M 390.48349,-98.445 A 0.25,0.25 0 0 1 390.7,-98.57"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_102"
+             d="m 393.00072,-98.57 a 3,3 0 0 1 2.63803,1.571429"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_103"
+             d="m 409.06041,-136.5848 a 28.5,28.5 0 1 1 -13.42166,39.586229"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_104"
+             d="m 409.06041,-136.5848 a 4,4 0 0 1 -5.16541,-5.52909"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_108"
+             d="m 373.505,-142.11389 a 4,4 0 0 1 -5.16541,5.52909"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_109"
+             d="M 381.76125,-96.998571 A 28.5,28.5 0 1 1 368.33959,-136.5848"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_10C"
+             d="m 235.28,-158.105 a 3,3 0 0 1 -3,-3"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_10E"
+             d="m 232.28,-235.175 a 3,3 0 0 1 3,-3"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_110"
+             d="m 399.2,-186.105 a 10.5,10.5 0 0 1 0,21"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_112"
+             d="m 378.2,-165.105 a 10.5,10.5 0 0 1 0,-21"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_114"
+             d="m 321.52728,-238.175 a 3,3 0 0 1 2.69402,1.68005"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_115"
+             d="m 346.30646,-212.01115 a 60,60 0 0 1 -22.08516,-24.4838"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_116"
+             d="m 431.09354,-212.01115 a 80,80 0 0 1 -84.78708,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_117"
+             d="m 453.1787,-236.49495 a 60,60 0 0 1 -22.08516,24.4838"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_118"
+             d="m 453.1787,-236.49495 a 3,3 0 0 1 2.69402,-1.68005"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_11C"
+             d="m 443.05,-168.855 a 11.5,11.5 0 0 1 0,-23"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_11F"
+             d="m 462.23864,-168.93318 a 5,5 0 0 1 -0.88074,0.0782"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_120"
+             d="m 462.23864,-168.93318 a 7.4445901,7.4445901 0 0 1 0.18663,-0.031"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_121"
+             d="m 466.49949,-172.61265 a 5,5 0 0 1 -4.07422,3.64851"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_123"
+             d="m 465.45144,-191.83868 a 5,5 0 0 1 4.51579,6.28424"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_124"
+             d="m 462.04792,-191.86115 a 30.293413,30.293413 0 0 1 3.40352,0.0225"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_125"
+             d="M 462.04792,-191.86115 A 5,5 0 0 1 461.8,-191.855"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_126"
+             d="m 542.12,-238.175 a 3,3 0 0 1 3,3"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_128"
+             d="m 545.12,-161.105 a 3,3 0 0 1 -3,3"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_145"
+             d="m 671.56088,99.192587 a 10,10 0 0 1 0,-20"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_14D"
+             d="m 671.80323,41.993096 a 5,5 0 0 1 3.33894,2.949491"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_14F"
+             d="m 652.5772,43.041144 a 5,5 0 0 1 6.28423,-4.515791"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_150"
+             d="m 652.51746,44.942587 a 30.293413,30.293413 0 0 1 0.0597,-1.901443"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_153"
+             d="m 646.31088,26.701337 a 0.79375,0.79375 0 0 1 0.79375,-0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_155"
+             d="m 649.81088,25.113837 a 0.79375,0.79375 0 0 1 -0.79375,0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_157"
+             d="m 649.01713,5.9075867 a 0.79375,0.79375 0 0 1 0.79375,0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_159"
+             d="m 647.10463,5.9075867 a 0.79375,0.79375 0 0 1 -0.79375,-0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_15C"
+             d="m 765.60587,32.451477 a 4,4 0 0 1 5.16542,-5.529087"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_15D"
+             d="M 757.34962,-12.663842 A 28.5,28.5 0 1 1 770.77129,26.92239"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_15E"
+             d="m 757.34962,-12.663842 a 3,3 0 0 1 -2.63802,1.571429"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_160"
+             d="m 752.41088,-11.092413 a 0.25,0.25 0 0 1 -0.21651,-0.125"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_162"
+             d="m 750.19437,-13.931515 a 0.25,0.25 0 0 1 0.43301,0"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_164"
+             d="m 748.62738,-11.217413 a 0.25,0.25 0 0 1 -0.2165,0.125"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_166"
+             d="m 746.11015,-11.092413 a 3,3 0 0 1 -2.63802,-1.571429"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_167"
+             d="m 730.05046,26.92239 a 28.5,28.5 0 1 1 13.42167,-39.586232"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_168"
+             d="m 730.05046,26.92239 a 4,4 0 0 1 5.16542,5.529087"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_16C"
+             d="m 854.51088,5.1138367 a 0.79375,0.79375 0 0 1 -0.79375,0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_16E"
+             d="m 851.01088,6.7013367 a 0.79375,0.79375 0 0 1 0.79375,-0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_170"
+             d="m 851.80463,25.907587 a 0.79375,0.79375 0 0 1 -0.79375,-0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             id="ID_172"
+             d="m 853.71713,25.907587 a 0.79375,0.79375 0 0 1 0.79375,0.79375"
+             inkscape:connector-curvature="0"
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -78.849998,-17.785 a 10.5,10.5 0 0 1 -10.5,10.5000002 10.5,10.5 0 0 1 -10.5,-10.5000002 10.5,10.5 0 0 1 10.5,-10.5 10.5,10.5 0 0 1 10.5,10.5 z"
+             id="ID_92" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 49,0 A 17,17 0 0 1 32,17 17,17 0 0 1 15,0 17,17 0 0 1 32,-17 17,17 0 0 1 49,0 Z"
+             id="ID_93" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M -15,0 A 17,17 0 0 1 -32,17 17,17 0 0 1 -49,0 17,17 0 0 1 -32,-17 17,17 0 0 1 -15,0 Z"
+             id="ID_94" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 99.849998,-17.785 a 10.5,10.5 0 0 1 -10.5,10.5000002 10.5,10.5 0 0 1 -10.5,-10.5000002 10.5,10.5 0 0 1 10.5,-10.5 10.5,10.5 0 0 1 10.5,10.5 z"
+             id="A2" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 373.70001,88.07 a 17,17 0 0 1 -17,17 17,17 0 0 1 -17,-17 17,17 0 0 1 17,-17 17,17 0 0 1 17,17 z"
+             id="B9" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 437.70001,88.07 a 17,17 0 0 1 -17,17 17,17 0 0 1 -17,-17 17,17 0 0 1 17,-17 17,17 0 0 1 17,17 z"
+             id="BA" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 674.06085,91.692589 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5 z"
+             id="ID_144" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M -15.194996,100.02611 -22.767128,85.785004"
+             id="ID_70" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -2,143.57001 -2.3007221,0"
+             id="ID_74" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M -0.21650635,146.4091 -1.7834936,143.69501"
+             id="ID_76" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 1.7834936,143.69501 0.21650635,146.4091"
+             id="ID_78" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 4.3007221,143.57001 2,143.57001"
+             id="ID_7A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 22.767128,85.785004 15.194996,100.02611"
+             id="ID_7E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -69.260178,85.785004 138.520356,0"
+             id="ID_7F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 69.057106,86.077896 -1.164215,1.164208"
+             id="ID_81" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 67.599998,87.949211 0,77.155789"
+             id="ID_83" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -67.599998,165.105 135.199996,0"
+             id="ID_84" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -67.599998,165.105 0,-77.155789"
+             id="ID_85" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -67.892891,87.242104 -1.164215,-1.164208"
+             id="ID_87" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 69.349998,45.785 -138.699996,0"
+             id="ID_88" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 69.349998,-80.535004 0,134.320004"
+             id="ID_89" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 69.349998,53.785 -15,0"
+             id="ID_8A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 54.349998,76.785004 15,0"
+             id="ID_8C" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 69.349998,76.785004 0,8.585785"
+             id="ID_8D" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -69.349998,85.370789 0,-165.905793"
+             id="ID_8E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -69.349998,44.035 -40.000002,0"
+             id="ID_8F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -109.35,44.035 0,-79.32"
+             id="ID_90" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -109.35,-35.285 40.000002,0"
+             id="ID_91" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 22.187214,-37.035 8.3215256,-3.5602655"
+             id="ID_95" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 22.187214,-37.035 47.162784,0"
+             id="ID_96" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -69.349998,-37.035 47.162784,0"
+             id="ID_97" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M -8.3215256,-3.5602655 -22.187214,-37.035"
+             id="ID_98" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 69.349998,-35.285 40.000002,0"
+             id="ID_9A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 109.35,-35.285 0,79.32"
+             id="ID_9B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 109.35,44.035 -9.418703,0"
+             id="ID_9C" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 96.592354,41.08551 83.650558,37.617767"
+             id="ID_9E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 77.306587,44.035 -7.956589,0"
+             id="A1" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 22.155806,-37.102711 0.03141,0.06771"
+             id="A3" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -22.187214,-37.035 0.03141,-0.06771"
+             id="A9" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -70.964264,-88.785004 141.928528,0"
+             id="AC" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -72.849998,-94.618332 0,-115.736668"
+             id="AF" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -72.849998,-176.355 145.699996,0"
+             id="B0" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 72.849998,-186.105 0,91.486668"
+             id="B1" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m -66.849998,-216.355 98.699998,0"
+             id="B3" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 37.849998,-210.355 0,1.75"
+             id="B5" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 54.349998,-192.105 12.5,0"
+             id="B7" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,63.07 0,-38.07"
+             id="BB" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,44.035 131.69998,0"
+             id="BC" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 454.54999,25 0,38.07"
+             id="BD" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 454.54999,63.07 1.75,0"
+             id="BE" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 456.29999,63.07 0,20"
+             id="BF" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 456.29999,83.07 -1.75,0"
+             id="C0" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 454.54999,83.07 0,38.335"
+             id="C1" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 454.54999,121.405 -46.81894,0"
+             id="C2" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 407.73105,121.405 395.63571,92.204292"
+             id="C3" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 381.76428,92.204292 369.66898,121.405"
+             id="C5" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 369.66898,121.405 -46.81897,0"
+             id="C6" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,121.405 0,-38.335"
+             id="C7" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,83.07 -1.75,0"
+             id="C8" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 321.10001,83.07 0,-20"
+             id="C9" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 321.10001,63.07 1.75,0"
+             id="CA" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,25 -1.75,0"
+             id="CB" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 321.10001,25 0,-20"
+             id="CC" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 321.10001,5 1.75,0"
+             id="CD" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,5 0,-80.285004"
+             id="CE" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 322.85001,-35.285 45.19943,0"
+             id="CF" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 381.07138,-3.8472781 368.04944,-35.285"
+             id="D0" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 409.35056,-35.285 396.32861,-3.8472781"
+             id="D2" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 409.35056,-35.285 45.19943,0"
+             id="D3" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 454.54999,-75.285004 454.54999,5"
+             id="D4" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 454.54999,5 1.75,0"
+             id="D5" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 456.29999,5 0,20"
+             id="D6" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 456.29999,25 -1.75,0"
+             id="D7" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 458.04999,-75.285004 -138.69998,0"
+             id="F0" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 409.26364,-37.035 0.0596,0.128418"
+             id="F2" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 368.07681,-36.906582 0.0596,-0.128418"
+             id="F6" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 319.35001,-75.285004 0,-82.819996"
+             id="F8" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 458.04999,-158.105 0,82.819996"
+             id="F9" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 386.70001,-98.57 -2.30072,0"
+             id="FB" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 388.48349,-95.730896 386.9165,-98.445"
+             id="FD" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 390.48349,-98.445 -1.56699,2.714104"
+             id="FF" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 393.00073,-98.57 -2.30072,0"
+             id="ID_101" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 408.14395,-150.105 -4.24896,7.99111"
+             id="ID_105" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 369.25604,-150.105 38.88791,0"
+             id="ID_106" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 373.505,-142.11389 -4.24896,-7.99111"
+             id="ID_107" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 317.35001,-158.105 0,-80.07"
+             id="ID_10A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 542.12,-158.105 -306.84,0"
+             id="ID_10B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 232.28,-161.105 0,-74.07"
+             id="ID_10D" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 235.28,-238.175 86.24728,0"
+             id="ID_10F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 378.20001,-186.105 21,0"
+             id="ID_111" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 399.20001,-165.105 -21,0"
+             id="ID_113" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 455.87271,-238.175 86.24729,0"
+             id="ID_119" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 460.04999,-191.855 0,-46.32"
+             id="ID_11A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 443.04999,-191.855 18.75,0"
+             id="ID_11B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 461.35791,-168.855 -18.30792,0"
+             id="ID_11D" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 460.04999,-158.105 0,-10.75"
+             id="ID_11E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 469.96722,-185.55444 -3.46774,12.94178"
+             id="ID_122" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 545.12,-235.175 0,74.07"
+             id="ID_127" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 715.38678,117.01267 -12.09442,2.58417"
+             id="ID_129" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 715.38678,117.01267 -2.00952,39.13848"
+             id="ID_12A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 701.61115,152.34192 11.76611,3.80923"
+             id="ID_12B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 703.29236,119.59684 -1.68121,32.74508"
+             id="ID_12C" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 717.427,117.11743 -2.04022,-0.10476"
+             id="ID_12D" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 717.427,117.11743 29.57898,17.73015"
+             id="ID_12E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 746.6568,141.64838 0.34918,-6.8008"
+             id="ID_12F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 715.41748,156.25591 746.6568,141.64838"
+             id="ID_130" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 713.37726,156.15115 2.04022,0.10476"
+             id="ID_131" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 733.13721,108.76416 717.427,117.11743"
+             id="ID_132" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 731.7699,106.19259 15.23608,28.65499"
+             id="ID_133" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 685.56085,106.19259 129.70001,0"
+             id="ID_134" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 753.81573,134.84758 15.23615,-28.65499"
+             id="ID_135" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 747.00598,134.84758 6.80975,0"
+             id="ID_136" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 686.43585,99.192589 0,-20"
+             id="ID_137" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 686.43585,79.192589 -14.875,0"
+             id="ID_138" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 685.56085,75.442589 0,3.75"
+             id="ID_139" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 734.28473,76.442589 730.81586,89.38855"
+             id="ID_13A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 730.81586,89.38855 0,1.054039"
+             id="ID_13B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 730.81586,90.442589 39.19006,0"
+             id="ID_13C" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 770.00592,90.442589 0,-1.054039"
+             id="ID_13D" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 770.00592,89.38855 766.53705,76.442589"
+             id="ID_13E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 815.26086,76.442589 -129.70001,0"
+             id="ID_13F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 815.26086,106.19259 0,-61.250005"
+             id="ID_140" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 685.56085,99.192589 0,7.000001"
+             id="ID_141" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 671.56085,99.192589 14.875,0"
+             id="ID_142" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 682.93585,79.192589 0,20"
+             id="ID_143" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 687.31085,73.692589 -1.75,1.75"
+             id="ID_146" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 687.31085,53.692585 0,20.000004"
+             id="ID_147" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 685.56085,51.942585 1.75,1.75"
+             id="ID_148" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 685.56085,44.942585 0,7"
+             id="ID_149" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 646.31085,-32.627415 208.20001,0"
+             id="ID_14A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 682.81085,-32.627415 0,77.57"
+             id="ID_14B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 675.14215,44.942585 179.36871,0"
+             id="ID_14C" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 658.86145,38.525352 12.94177,3.467743"
+             id="ID_14E" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 646.31085,44.942585 6.20661,0"
+             id="ID_151" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 646.31085,26.701336 0,18.241249"
+             id="ID_152" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 649.01715,25.907587 -1.91254,0"
+             id="ID_154" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 649.81085,6.7013369 0,18.4124991"
+             id="ID_156" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 647.10461,5.9075866 1.91254,0"
+             id="ID_158" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 646.31085,-32.627415 0,37.7412518"
+             id="ID_15A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="M 772.2475,44.942585 765.6059,32.451477"
+             id="ID_15B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 754.71161,-11.092413 -2.30072,0"
+             id="ID_15F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 752.1944,-11.217413 -1.56702,-2.714102"
+             id="ID_161" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 750.1944,-13.931515 -1.56702,2.714102"
+             id="ID_163" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 748.41089,-11.092413 -2.30072,0"
+             id="ID_165" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 735.21588,32.451477 -6.64166,12.491108"
+             id="ID_169" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 818.01086,-32.627415 0,77.57"
+             id="ID_16A" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 854.51086,5.1138368 0,-37.7412518"
+             id="ID_16B" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 851.80463,5.9075866 1.91247,0"
+             id="ID_16D" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 851.01086,25.113836 0,-18.4124991"
+             id="ID_16F" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 853.7171,25.907587 -1.91247,0"
+             id="ID_171" />
+          <path
+             style="color:#000000;stroke:currentColor;stroke-width:0.15000001mm"
+             d="m 854.51086,44.942585 0,-18.241249"
+             id="ID_173" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

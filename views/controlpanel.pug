@@ -1,0 +1,47 @@
+html
+  head
+    title
+  body
+    script.
+      /*hide advanced settings*/function otherthing(){document.getElementById('hidden').style.display='none';document.getElementById('thiself').style.display='block'}
+      /*show advanced settings*/function thing1(){document.getElementById('hidden').style.display='block';document.getElementById('thiself').style.display='none'}
+    form(action="get.php",method="post")
+      input(type="file",name="cut")
+      label Cut SVG
+      br
+      input(type="file",name="crease")
+      label Crease SVG
+      br
+      input(type="number",name="scale")
+      label Resulting cut width
+      br
+      a(id="thiself",href="javascript:thing1()") &gt; Show advanced settings
+      div#hidden(style="display:none")
+
+        a(id="thiself",href="javascript:otherthing()") v Hide advanced settings
+        br
+        input(type="number",name="l",value="10")
+        label Rotation Cutoff
+        br
+        input(type="number",name="d",value="-0.5")
+        label Depth
+        br
+        input(type="number",name="e",value="0")
+        label Scratch
+        br
+        input(type="number",name="f",value="0.5")
+        label Crease
+        br
+        input(type="number",name="ho",value="2")
+        label Height Offset
+        br
+        input(type="number",name="p",value="2.2")
+        label Crease tool offset
+        br
+        input(type="number",name="m",value="1")
+        label X-Multiplier
+        br
+        input(type="number",name="n",value="-1")
+        label Y-Multiplier
+      br
+      button Submit
