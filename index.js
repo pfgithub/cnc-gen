@@ -1,5 +1,5 @@
 var fs = require("fs");
-var convert = require("./converter.js")
+var convert = require("./converter.js");
 var argv = require('yargs')
   /*.alias("w", "width")
   .describe("w", "The width (in px) of your input file")
@@ -35,10 +35,10 @@ var argv = require('yargs')
   .describe("p", "The distance between the creasing tool and the knife")
 
   .alias("m", "x-multiplier")
-  .default("m",1)
+  .default("m", 1)
   .describe("m", "The ammount to multiply final X values by")
   .alias("n", "y-multiplier")
-  .default("n",-1)
+  .default("n", -1)
   .describe("n", "The ammount to multiply final Y values by")
 
   .alias("c", "crease-input")
@@ -51,13 +51,13 @@ var argv = require('yargs')
   .demand(['s'])
   .argv;
 //var path = require(argv._[0]);
-var path = fs.readFileSync(argv._[0],"utf8");
+var path = fs.readFileSync(argv._[0], "utf8");
 if(argv.c)var creasepath = fs.readFileSync(argv.c, "utf8");
 
 var result = convert(argv, path, creasepath);
 
 if(argv.o){
-  fs.writeFile(argv.o, result, function (err) {
+  fs.writeFile(argv.o, result, function(err){
     if (err) throw err;
     console.log('It\'s saved! in same location.');
   });

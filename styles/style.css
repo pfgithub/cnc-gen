@@ -4,7 +4,11 @@ body{
   background-size:100%;
   background-position: center center;
 }
-
+@media only screen and (max-device-width: 480px) {
+  /*body{
+    zoom:300%;
+  }*/
+}
 form{
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -19,7 +23,7 @@ form{
   background-color:#ffffff;
   background-color:rgba(255,255,255,0.5);
 
-  position:fixed;
+  position:absolute;
   top:50%;
   left:50%;
 
@@ -33,6 +37,18 @@ form{
   transform:translate(-50%,-50%);
 
   padding:10px;
+
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+@media screen and (max-width: 700px) {
+  form{
+    width:90%;
+  }
 }
 
 input, button{
@@ -41,11 +57,11 @@ input, button{
   background-color:rgba(255,255,255,0.3);
   width:50%;
 
-  -webkit-animation: 0.2s background-color;
-  -moz-animation: 0.2s background-color;
-  -ms-animation: 0.2s background-color;
-  -o-animation: 0.2s background-color;
-  animation: 0.2s background-color;
+  -webkit-transition: 0.2s background-color;
+  -moz-transition: 0.2s background-color;
+  -ms-transition: 0.2s background-color;
+  -o-transition: 0.2s background-color;
+  transition: 0.2s background-color;
 }
 
 input:hover, button:hover{
@@ -54,9 +70,30 @@ input:hover, button:hover{
 }
 
 input[type=file]::-webkit-file-upload-button{
+  width:0;
   border:none;
-  width:auto;
   background-color:rgba(255,255,255,0.3);
+  opacity:0;
+
+  -webkit-transition: 0.9s all;
+  -moz-transition: 0.9s all;
+  -ms-transition: 0.9s all;
+  -o-transition: 0.9s all;
+  transition: 0.9s all;
+}
+
+input[type=file]:hover::-webkit-file-upload-button{
+  width:75%;
+  opacity:1;
+}
+
+input[type=file]:invalid:hover::-webkit-file-upload-button{
+  width:100%;
+}
+
+input[type=file]:invalid::-webkit-file-upload-button{
+  opacity:1;
+  width:100%;
 }
 
 .spoilerText{
@@ -112,8 +149,6 @@ input[type=file]::-webkit-file-upload-button{
   -ms-transform: rotate(-10deg) ;
 }
 .spoilerChecked:after{
-  background-color:#dddddd;
-  background-color:rgba(255,255,255,0.3);
 
   content:"\00a0\00a0\00a0\00a0 Show "attr(showText);
   visibility:visible;
@@ -147,16 +182,42 @@ button{
 }
 
 .helptext{
-  display:none;
+  opacity:0;
+
+  pointer-events: none;
+
+  position:fixed;
   white-space: pre;
+
+  background-color:#fff;
+  background-color:rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+
+  transform: scaleY(0);
+  transform-origin: top;
+
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
 }
 
 .helplink:hover + .helptext{
-  display:block;
-  position:fixed;
-  background-color:#fff;
-  background-color:rgba(255,255,255,0.9);
+  pointer-events: all;
 
+  display:block;
+  opacity:1;
+  background-color:#fff;
+  background-color:rgba(255,255,255,0.8);
+
+
+  transform: scaleY(1);
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -164,3 +225,78 @@ button{
   -ms-backdrop-filter: blur(10px);
   -o-backdrop-filter: blur(10px);
 }
+
+.navbar{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:30px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+
+  background-color:#ffffff;
+  background-color:rgba(255,255,255,0.5);
+}
+.navbari{
+  float:left;
+  display:inline-block;
+
+  background-color:#eeeeee;
+  background-color:rgba(255,255,255,0.0);
+
+  transition:0.5s all;
+  height:100%;
+  border-bottom:0 solid #aaa;
+  border-bottom:0 solid rgba(255,255,255,0.4);
+
+  box-sizing: border-box;
+
+  padding-left:10px;
+  padding-right:10px;
+}
+.navbari.navbariselected{
+  border-bottom-width: 5px;
+
+  box-sizing: border-box;
+}
+.navbari:hover{
+  background-color:#dddddd;
+  background-color:rgba(255,255,255,0.3);
+
+  border-bottom-width:30px;
+
+  box-sizing: border-box;
+}
+
+code:before{
+  content:"\00a0";
+}
+
+code:after{
+  content:"\00a0";
+}
+
+
+
+/*input[type="text"], input[type="number"]{
+  text-align:center;
+
+  -webkit-transition: 0.2s text-align;
+  -moz-transition: 0.2s text-align;
+  -ms-transition: 0.2s text-align;
+  -o-transition: 0.2s text-align;
+  transition: 0.2s text-align;
+}
+
+input[type="number"]{
+  text-align:right;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type=text]:hover, input[type="number"]:hover{
+  text-align:left;
+}*/

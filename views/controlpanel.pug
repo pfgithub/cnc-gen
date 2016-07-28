@@ -14,6 +14,7 @@ mixin help()
 html
   head
     title Control Panel
+    link(href="normalize.css", rel="stylesheet")
     link(href="style.css", rel="stylesheet")
   body
     script(src="/script.js")
@@ -21,8 +22,11 @@ html
       POWERMODE.colorful = false; // make power mode colorful
       POWERMODE.shake = false; // turn off shake
       document.body.addEventListener('input', POWERMODE);
+    .navbar
+      a.navbari.navbariselected(href="/") Convert
+      a.navbari(href="http://editor.method.ac/",target="_blank") Create
     form(action="get.php",method="post",encType="multipart/form-data")
-      input(type="text",name="name",value="Unnamed")
+      input(type="text",name="name",value="Unnamed",required)
       label File name
       +help
         | The name you want the downloaded file to have
@@ -32,26 +36,26 @@ html
         | creates the file
         code "super-image-3-TIMESTAMP"
       br
-      input(type="file",name="cut")
+      input(type="file",name="cut",required)
       label Cut SVG
       +help
         | The SVG file containing paths of what you want to cut
         | Cuts get done with the top path first
         | which usually means the first ones you make your graphics program
       br
-      input(type="file",name="crease")
+      input(type="file",name="crease",required)
       label Crease SVG
       +help
         | The SVG file containing paths what you want to crease
       br
-      input(type="number",name="s",value="10")
+      input(type="number",name="s",value="10",required,step="any")
       label Resulting cut width
       +help
         | The width of your resulting output file
       br
       +spoiler("advanced settings")
         br
-        input(type="number",name="l",value="10")
+        input(type="number",name="l",value="10",required,step="any")
         label Rotation Cutoff
         +help
           | How much to allow the cutting tool to turn without pulling out of the material
@@ -62,22 +66,22 @@ html
           code 360
           | if your cutting tool has no rotation (a) value
         br
-        input(type="number",name="d",value="-0.5")
+        input(type="number",name="d",value="-0.5",required,step="any")
         label Depth
         +help
           | The number on the z axis so that the cutting tool is cutting all the way through the material
         br
-        input(type="number",name="e",value="0")
+        input(type="number",name="e",value="0",required,step="any")
         label Scratch
         +help
           | The number on the z axis so that the cutting tool is almost touching the material but not quite
         br
-        input(type="number",name="f",value="0.5")
+        input(type="number",name="f",value="0.5",required,step="any")
         label Crease
         +help
           | The number on the z axis so that the cutting tool is creasing the material
         br
-        input(type="number",name="ho",value="2")
+        input(type="number",name="ho",value="2",required,step="any")
         label Height Offset
         +help
           | A number to use if the cut comes out too low or too high
@@ -85,7 +89,7 @@ html
           | The cut comes out too low, height offset =
           code 0.9
         br
-        input(type="number",name="p",value="2.2")
+        input(type="number",name="p",value="2.3",required,step="any")
         label Crease tool offset
         +help
           | How far down the creasing tool is from the cutting tool
@@ -95,12 +99,12 @@ html
           | down, so the crease tool offset =
           code 3
         br
-        input(type="number",name="m",value="1")
+        input(type="number",name="m",value="1",required,step="any")
         label X-Multiplier
         +help
           | A number to multiply the x value by
         br
-        input(type="number",name="n",value="-1")
+        input(type="number",name="n",value="-1",required,step="any")
         label Y-Multiplier
         +help
           | A number to multiply the y value by
