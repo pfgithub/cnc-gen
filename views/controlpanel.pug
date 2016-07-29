@@ -22,8 +22,14 @@ html
       POWERMODE.colorful = false; // make power mode colorful
       POWERMODE.shake = false; // turn off shake
       document.body.addEventListener('input', POWERMODE);
+
+      setInterval(
+        function(){
+          document.getElementById("code2").innerHTML='"super-image-3-' + (new Date()).getTime() + '"'
+        }
+      ,100);
     .navbar
-      a.navbari.navbariselected(href="/") Convert
+      a.navbari.navbariselected(href="#") Convert
       a.navbari(href="http://editor.method.ac/",target="_blank") Create
     form(action="get.php",method="post",encType="multipart/form-data")
       input(type="text",name="name",value="Unnamed",required)
@@ -34,7 +40,7 @@ html
         br
         code "Super Image 3"
         | creates the file
-        code "super-image-3-TIMESTAMP"
+        code#code2 "super-image-3-TIMESTAMP"
       br
       input(type="file",name="cut",required)
       label Cut SVG
@@ -110,3 +116,41 @@ html
           | A number to multiply the y value by
       br
       button Download
+    script.
+      function checkVersion(){
+        var rv = -1; // Return value assumes failure.
+        if (/MSIE/i.test(navigator.userAgent)) {
+           rv = 1;
+        }
+
+        if (/Edge\/\d./i.test(navigator.userAgent)){
+           // This is Microsoft Edge
+           rv = 2;
+        }
+        if(navigator.userAgent.indexOf("Firefox") > -1){
+          rv = 3 // Firefox
+        }
+        return rv;
+      }
+      var result = checkVersion();
+
+      function toArray(obj) {
+        var array = [];
+        // iterate backwards ensuring that length is an UInt32
+        for (var i = obj.length >>> 0; i--;) {
+          array[i] = obj[i];
+        }
+        return array;
+      }
+      console.log(navigator);
+      if(result > -1){
+        toArray(document.getElementsByClassName("spoilerChecked")).forEach(function(domelem){
+          domelem.className = "spoilerChecked ie";
+        });
+        toArray(document.getElementsByClassName("spoiler")).forEach(function(domelem){
+          var elem = document.createElement("label");
+          elem.innerHTML = "^^ Show/hide advanced settings ^^";
+          domelem.appendChild(elem);
+        });
+        console.log("IE DETECTED, EXTERMINATING");
+      }

@@ -103,6 +103,9 @@ input[type=file]:invalid::-webkit-file-upload-button{
   visibility:hidden;
   width:100%;
 }
+.spoilerChecked.ie{
+  visibility:visible;
+}
 .spoilerChecked:before{
   visibility:visible;
 
@@ -192,11 +195,11 @@ button{
   background-color:#fff;
   background-color:rgba(255,255,255,0.1);
 
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  -moz-backdrop-filter: blur(5px);
-  -ms-backdrop-filter: blur(5px);
-  -o-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
 
   transform: scaleY(0);
   transform-origin: top;
@@ -218,12 +221,6 @@ button{
 
 
   transform: scaleY(1);
-
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  -moz-backdrop-filter: blur(10px);
-  -ms-backdrop-filter: blur(10px);
-  -o-backdrop-filter: blur(10px);
 }
 
 .navbar{
