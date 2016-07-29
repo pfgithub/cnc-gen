@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="502" width="502" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_12" d="m305.5,265.5l51.5,16.5l-31,37l47,24l-33,33l-34.5,-110.5z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <path id="svg_10" d="m371.5,120.5c0,0 92,63 92,63c0,0 -75,61 -75.5,60.5c0.5,0.5 64.5,33.5 64,33c0.5,0.5 -61.5,38.5 -61.5,38.5c0,0 43,27 43,27c0,0 -94,57 -94.5,56.5c0.5,0.5 3.5,36.5 -16.5,42.5c29,37 1,56 1,56c0,0 -25,3 -46,-41c-72,-19 -88,-3 -88.5,-3.5c0.5,0.5 -10.5,13.5 -11,13c0.5,0.5 -38.5,26.5 -58.5,13.5c-7,-15 23,-32 23,-32c0,0 -20,-22 -19,-50c1,-28 18,-116 18,-116c0,0 -37,-22 -38,-50c-1,-28 22,-75 22,-75c0,0 -107,-8 -123,-48c28,-36 154,19 154,19c0,0 50,-28 109,-8c34,-61 120,-115 120,-115c0,0 -10,82 -87,146c30,39 8,36 7.5,35.5c0.5,0.5 65.5,-65.5 65.5,-65.5z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+ </g>
+</svg>

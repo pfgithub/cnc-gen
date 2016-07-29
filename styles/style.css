@@ -1,5 +1,6 @@
 body{
   /*background-color:#55f;*/
+  background-color:#aaf;
   background-image:url("/cardboard.jpg");
   background-size:100%;
   background-position: center center;
@@ -106,7 +107,7 @@ input[type=file]:invalid::-webkit-file-upload-button{
 .spoilerChecked.ie{
   visibility:visible;
 }
-.spoilerChecked:before{
+.spoilerChecked::before{
   visibility:visible;
 
   position:absolute;
@@ -130,33 +131,33 @@ input[type=file]:invalid::-webkit-file-upload-button{
   -o-transition: transform 0.2s;
   transition: transform 0.2s;
 }
-.spoilerChecked:hover:before{
+.spoilerChecked:hover::before{
   transform: rotate(-80deg) ;
   -webkit-transform: rotate(-80deg) ;
   -moz-transform: rotate(-80deg) ;
   -o-transform: rotate(-80deg) ;
   -ms-transform: rotate(-80deg) ;
 }
-.spoilerChecked:checked:before{
+.spoilerChecked:checked::before{
   transform: rotate(0deg) ;
   -webkit-transform: rotate(0deg) ;
   -moz-transform: rotate(0deg) ;
   -o-transform: rotate(0deg) ;
   -ms-transform: rotate(0deg) ;
 }
-.spoilerChecked:checked:hover:before{
+.spoilerChecked:checked:hover::before{
   transform: rotate(-10deg) ;
   -webkit-transform: rotate(-10deg) ;
   -moz-transform: rotate(-10deg) ;
   -o-transform: rotate(-10deg) ;
   -ms-transform: rotate(-10deg) ;
 }
-.spoilerChecked:after{
+.spoilerChecked::after{
 
   content:"\00a0\00a0\00a0\00a0 Show "attr(showText);
   visibility:visible;
 }
-.spoilerChecked:checked:after{
+.spoilerChecked:checked::after{
   content:"\00a0\00a0\00a0\00a0 Hide "attr(showText);
 }
 .spoilerContent{
@@ -255,6 +256,11 @@ button{
 
   padding-left:10px;
   padding-right:10px;
+
+  text-align:center;line-height:30px;height:30px;
+
+  text-decoration: none;
+  color:#000;
 }
 .navbari.navbariselected{
   border-bottom-width: 5px;
@@ -270,11 +276,11 @@ button{
   box-sizing: border-box;
 }
 
-code:before{
+code::before{
   content:"\00a0";
 }
 
-code:after{
+code::after{
   content:"\00a0";
 }
 

@@ -1,12 +1,15 @@
 var fs = require("fs");
 var convert = require("./converter.js");
 var argv = require('yargs')
-  /*.alias("w", "width")
+  .alias("w", "width")
   .describe("w", "The width (in px) of your input file")
+  .default("h", 500)
   .alias("h", "height")
-  .describe("h", "The height (in px) of your input file")*/
+  .describe("h", "The height (in px) of your input file")
+  .default("h", 500)
   .alias("s", "scale")
   .describe("s", "The width of the resulting output file")
+
   .alias("o", "output")
   .describe("o", "The location to put the resulting .tap file (overrites without warning!)")
 

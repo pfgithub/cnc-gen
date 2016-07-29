@@ -7,6 +7,11 @@ var convert = require("./converter.js");
 
 app.set('view engine', 'pug');
 
+app.use(function(req, res, next){
+  res.setHeader("X-Powered-By", "Express PHP");
+  next();
+});
+
 app.use(bodyParser.urlencoded({}));
 app.use(fileUpload());
 
@@ -53,7 +58,7 @@ function getObjectFor(body, letters){
 app.post('/get.php', function(req, res){
   // s - scale, o - output, l - rotation-cutoff, d - depth, e - scratch, f- crease, ho - height-offset, p - crease-offset, m - x-multiplier, n - y-multiplier, c - crease-input
   //console.log();
-  var objr = getObjectFor(req.body, "s,l,d,e,f,ho,p,m,n");
+  var objr = getObjectFor(req.body, "s,l,d,e,f,ho,p,m,n,w,h");
   objr.c = true;
   console.log(objr);
   var result = convert(

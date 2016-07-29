@@ -11,6 +11,12 @@ mixin help()
     .helptext
       block
 
+mixin numInput(name, realname, defaulte)
+  input(type="number",name=name,value=defaulte,required,step="any")
+  label= realname
+  +help
+    block
+
 html
   head
     title Control Panel
@@ -114,6 +120,13 @@ html
         label Y-Multiplier
         +help
           | A number to multiply the y value by
+        br
+        +numInput("w", "Width", 500)
+          | The width of your input svg
+        br
+        +numInput("h", "Height", 500)
+          | The height of your input svg
+
       br
       button Download
     script.
@@ -144,6 +157,15 @@ html
       }
       console.log(navigator);
       if(result > -1){
+        var nope = document.createElement("div");
+        nope.innerHTML = "Some features of this website may not look as good on your browser";
+        nope.style.position="fixed";
+        nope.style.bottom="0";
+        nope.style.left="0";
+        nope.style.width="100%";
+        nope.style.backgroundColor = "#fff";
+        nope.style.fontSize="24pt";
+        document.body.appendChild(nope);
         toArray(document.getElementsByClassName("spoilerChecked")).forEach(function(domelem){
           domelem.className = "spoilerChecked ie";
         });

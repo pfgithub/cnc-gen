@@ -64,18 +64,18 @@ CNC.prototype.drawBezier = function(curve, quality){
       var currRot = this.calculateAngle(prevpoint[0], prevpoint[1], point[0], point[1]);
       if(Math.abs(prevrot - currRot) > this.rotationCutoff){
         this.stab(0);
-        this.addInstruction([
+        /*this.addInstruction([
           ["G", 4],
           ["P", 10]
-        ]);
+        ]);*/
       }
       this.facePoint(currRot);
       if(Math.abs(prevrot - currRot) > this.rotationCutoff){
         this.stab(1);
-        this.addInstruction([
+        /*this.addInstruction([
           ["G", 4],
           ["P", 10]
-        ]);
+        ]);*/
       }
       prevrot = currRot;
     }else{

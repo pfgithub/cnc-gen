@@ -33,7 +33,7 @@ module.exports = function convert(argv, path, creasepath){
       if(path.charAt(0) == "{"){
         path = JSON.parse(path);
       }else{
-        path = {size:[500, 500], paths: doStuff(path)};
+        path = {size:[argv.w, argv.h], paths: doStuff(path)};
       }
     }
 
