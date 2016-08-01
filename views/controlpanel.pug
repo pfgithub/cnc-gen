@@ -55,7 +55,7 @@ html
         | Cuts get done with the top path first
         | which usually means the first ones you make your graphics program
       br
-      input(type="file",name="crease",required)
+      input(type="file",name="crease")
       label Crease SVG
       +help
         | The SVG file containing paths what you want to crease
@@ -122,10 +122,14 @@ html
           | A number to multiply the y value by
         br
         +numInput("w", "Width", 500)
-          | The width of your input svg
+          | The width of your input svg (in
+          code px
+          | )
         br
         +numInput("h", "Height", 500)
-          | The height of your input svg
+          | The height of your input svg (in
+          code px
+          | )
 
       br
       button Download
